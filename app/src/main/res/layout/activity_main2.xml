@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="916dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="328dp"
+                app:srcCompat="@drawable/t" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="คามาโดะ ทันจิโร่"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/oep" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="334dp"
+                android:text="คามาโดะ ทันจิโร่ – อายุ 15 ปี ลูกชายคนโตของตระกูลคามาโดะ เด็กหนุ่มที่มีจิตใจบริสุทธิ์ เป็นคนรักครอบครัวมาก นิสัยสัตย์ซื่อ ตรงไปตรงมา มีศีรษะที่แข็งยิ่งกว่าหินถึงขนาดใช้โจมตีอสูรได้ มีประสาทสัมผัสการดมกลิ่นดีเยี่ยมที่ถึงขั้นทำให้สามารถรับรู้ความรู้สึกของทั้งมนุษย์และอสูรได้ ในยามต่อสู้ ทันจิโร่ไม่เคยลังเลที่จะลงมือสังหารอสูรที่ทำร้ายผู้คน แต่เมื่อรับรู้ถึงความเศร้าเสียใจของอสูรเหล่านั้น เขาก็พร้อมจะมอบความเมตตาให้เสมอ  หลังจากเนสึโกะกลายเป็นอสูร ทันจิโร่ก็ได้รับการฝึกฝนจาก อุโรโกะดากิ อดีตเสาหลักผู้ใช้ปราณวารี และได้เป็นผู้สืบทอดปราณวารีทั้งสิบกระบวนท่าคนล่าสุด เขาจึงเป็นศิษย์ผู้น้องของ กิยู ซาบิโตะ และมาโคโมะ แต่ต่อมาเขาได้ประยุกต์การใช้ระบำฮิโนะคามิที่สืบทอดกันมาในตระกูลซึ่งเป็นเทคนิคการใช้ลมหายใจขั้นสูงที่ทันจูโร่ พ่อของเขาได้ถ่ายทอดให้ ซึ่งจะส่งผลให้พละกำลังและความทรหดเพิ่มขึ้น  ทันจิโร่ยังเป็นคนประเภทมองโลกแง่บวก สามารถเข้ากับผู้คนได้ง่าย ตอนแรกเขาถูกต่อต้านจากบรรดาเสาหลักในองค์กรนักล่าอสูร เพราะเรื่องของเนสึโกะ แต่ภายหลังเขาได้รับความชื่นชอบและการยอมรับจากเหล่าเสาหลักเกือบทั้งหมด (ตัวละครเคมีสาธารณะชัด ๆ)"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

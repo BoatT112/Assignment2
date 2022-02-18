@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                app:srcCompat="@drawable/opow" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ฮาชิบิระ อิโนสึเกะ"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="558dp"
+                app:srcCompat="@drawable/iok" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ฮาชิบิระ อิโนสึเกะ – อายุ 15 ปี เด็กหนุ่มที่สวมหัวหมูป่าไว้แทบจะตลอดเวลา นิสัยเลือดร้อน โผงผาง ชอบการต่อสู้ ชอบเอาชนะและกวนประสาทอีกฝ่าย มีประสาทสัมผัสในการรับรู้เหมือนสัตว์ป่าที่สามารถรู้ถึงอันตรายและความแข็งแกร่งของอีกฝ่ายได้ เนื่องจากเขาไม่ได้ถูกเลี้ยงดูมาในสังคมมนุษย์ ทำให้ตรรกะการคิดของเขาค่อนข้างแปลก ละยังไม่ค่อยเข้าใจความรู้สึกของคนทั่วไปมากนัก หลังจากได้ร่วมทีมกับทันจิโร่และเซ็นนิตสึ เขาจึงเริ่มเปิดใจให้มนุษย์มากขึ้น  อิโนสึเกะพัฒนาปราณสัตว์ป่าของตนเอง ซึ่งมีรูปแบบการโจมตีที่ลอกเลียนจากสัตว์ป่า สามารถโจมตีและต่อสู้ในมุมที่คาดไม่ถึง ไปจนถึงยืดหดกล้ามเนื้อและกระดูกได้ แล้วยังมีความสามารถในการตรวจจับตำแหน่งของศัตรูได้ อิโนะสึเกะถือว่าเป็นตัวช่วยของทีมแบบคาดไม่ถึงได้ในยามจำเป็นหลายครั้ง และเป็นตัวเรียกอารมณ์ด้านบวกที่สำคัญคนหนึ่งของทีม" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
